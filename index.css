@@ -1,0 +1,177 @@
+header{
+
+    position: sticky;
+    top: 0;
+    margin: 0;
+    z-index: 2;
+
+}
+
+.header-itens {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10%;
+
+}
+
+body {
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(rgba(9,9,121,1),rgba(2,0,36,1));
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+
+.body-gambi {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#logo {
+
+    min-width: 60%;
+    min-height: 60%;
+    max-width: 60%;
+    opacity: 90%;
+    border:solid 1px;
+    border-radius:20px 20px 20px 20px;
+    margin-left: 20%;
+
+}
+
+.header-button {
+
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+    font-style:normal;
+    text-decoration:none;
+
+
+
+}
+
+.header-button:hover {
+
+    color: yellow;
+    
+}
+
+.header-button:active {
+
+	position:relative;
+    top:2px;
+    
+}
+
+li {
+
+    height: 30%;
+    width: 30%;
+    background-color: yellow, 0.6;
+    padding: 10%;
+
+}
+
+p{
+    color: yellow;
+    max-width: 800px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+    align-self: center;
+    
+}
+
+h2 {
+
+    color: yellow;
+    max-width: 800px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+    align-self: center;
+
+}
+
+
+#side-menu {
+
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+#pacman-game {
+
+    border-radius:20px 20px 20px 20px;
+
+}
+
+#pacman-voraz {
+
+    border-radius:20px 20px 20px 20px;
+    width: 40%;
+    height: 40%;
+
+}
+
+.sei-la {
+
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    
+}
+
+#intro {
+
+    align-self: center;
+    
+}
+
+#img-quem-somos {
+
+    border-radius:20px 20px 20px 20px;
+    width: 40%;
+    height: 40%;
+
+}
+
+#landing-img {
+
+    border-radius:20px 20px 20px 20px;
+    width: 40%;
+    height: 40%;
+}
+
+.letra-menor{
+
+    font-size: small;
+
+}
+#menu-de-lista {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: yellow;
+}
+
+.footer1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10%;
+
+}
